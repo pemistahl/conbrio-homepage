@@ -4,37 +4,56 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Chor ConBrio</title>
-  <link rel="stylesheet" href="assets/css/bootstrap.css">
-  <link rel="stylesheet" href="assets/css/custom.css">
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://fonts.googleapis.com/css?family=Merriweather:700|Merriweather+Sans:400,400italic,700"
+  >
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous"
+  >
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="assets/css/custom.css"
+  >
 </head>
 <body>
   <div class="container">
-    <div id="header" class="row pt-2">
+    <div id="cb-header-row" class="row">
       <div class="col p-0">
         <img
-          src="assets/images/header.png"
+          id="cb-header-logo"
+          src="assets/images/logo.png"
+          class="img-fluid position-absolute top-0 start-50 translate-middle-x"
+          alt="ConBrio-Logo"
+        >
+        <img
+          src="assets/images/chor2022.jpg"
           class="img-fluid"
           alt="Gruppenaufnahme des Chores"
         >
-
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link px-sm-4 px-md-5" href="#neuigkeiten">Neuigkeiten</a>
-                <a class="nav-link px-sm-4 px-md-5" href="#about">Über uns</a>
-                <a class="nav-link px-sm-4 px-md-5" href="#chorleitung">Chorleitung</a>
-              </div>
-            </div>
-          </div>
-        </nav>
       </div>
     </div>
+    <nav id="navigation" class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarContent">
+          <div class="navbar-nav">
+            <a class="nav-link px-sm-4 px-md-5" href="#neuigkeiten">Neuigkeiten</a>
+            <a class="nav-link px-sm-4 px-md-5" href="#about">Über uns</a>
+            <a class="nav-link px-sm-4 px-md-5" href="#chorleitung">Chorleitung</a>
+          </div>
+        </div>
+      </div>
+    </nav>
     <div class="row cb-gold pb-4">
-      <div class="col">
+      <div class="col px-sm-3 px-md-4 px-xl-5">
         <h1 id="neuigkeiten">Endlich wieder live!</h1>
         <p>
           Für 2022 haben wir endlich wieder Konzerte geplant.
@@ -54,17 +73,14 @@
           für den Funken der Begeisterung, der immer wieder überspringt.
           Der Meisterchor im Chorverband NRW hat sich der musikalischen
           Vielfalt verschrieben und präsentiert im Programm
-          "Sing We and Chant it!" lebhaft und voller Feingefühl eine große
+          <i>Sing We and Chant it!</i> lebhaft und voller Feingefühl eine große
           stilistische Bandbreite mit dem Schwerpunkt auf A-cappella-Musik.
         </p>
         <p>
-          Am 7. August können Sie ConBrio "Open Air" beim Konzerttag der
+          Am 7. August können Sie ConBrio <i>Open Air</i> beim Konzerttag der
           Gemeinde Unterburg erleben.
         </p>
-      </div>
-    </div>
-    <div class="row cb-blue pb-4">
-      <div class="col">
+
         <h1 id="about">Wir über uns</h1>
         <h3>Wer sind wir?</h3>
         <p>
@@ -87,20 +103,20 @@
         >
         <p>
           Darunter sind Achterbahnfahrten durch Zeiten und Stilrichtungen
-          wie die Programme „Falsch verbunden?“ (2008) und „Geschichten
-          von Nachtigall und Lerche“ (2017). Stilistisch konkreter waren
-          das Renaissance-Programm „ConBrio in Sepia“ (2010), das von einer
-          Solinger Band begleitete Rock/Pop/Jazz-Programm „ConBrio on the
-          Rocks“ (2011) oder das „nordische“ a-cappella-Programm
-          „Klanglandschaft“ (2012). Ein Höhepunkt für Chor und Publikum war
-          im Jubiläumsjahr 2014 das Konzertprogramm „ConBrio Explizit!“ mit
+          wie die Programme <i>Falsch verbunden?</i> (2008) und <i>Geschichten
+          von Nachtigall und Lerche</i> (2017). Stilistisch konkreter waren
+          das Renaissance-Programm <i>ConBrio in Sepia</i> (2010), das von einer
+          Solinger Band begleitete Rock/Pop/Jazz-Programm <i>ConBrio on the
+          Rocks</i> (2011) oder das nordische a-cappella-Programm
+          <i>Klanglandschaft</i> (2012). Ein Höhepunkt für Chor und Publikum war
+          im Jubiläumsjahr 2014 das Konzertprogramm <i>ConBrio Explizit!</i> mit
           einem von Chorleiter Frank Schaab für den Chor arrangierten
           Querschnitt durch das Spektrum der deutschen Musikkabarett- und
           Liedermacherszene. ConBrio kann kleine und gemütliche Konzerte,
           wie in Autohaus Schönauen oder der Werkshalle der
           Robuso-Stahlwarenfabrik, aber auch die ganz große Kirchenmusik wie
-          die „Messe in g-moll“ von Bach, das „Gloria“ von Vivaldi (beide 2013)
-          oder das „Mozart-Requiem“ (2018), beides Gemeinschaftskonzerte mit
+          die <i>Messe in g-moll</i> von Bach, das <i>Gloria</i> von Vivaldi (beide 2013)
+          oder das <i>Mozart-Requiem</i> (2018), beides Gemeinschaftskonzerte mit
           dem Solinger Chor Kreuzfidel.
         </p>
 
@@ -115,28 +131,25 @@
         </p>
         <p>
           Im Jahre 2004 gründete sich der Chor im Sängerbund Gräfrath 1846 e.V.
-          neu. Unter dem Namen „Gemischter Chor ConBrio“ bildet er bis heute
+          neu. Unter dem Namen <i>Gemischter Chor ConBrio</i> bildet er bis heute
           eine eigenständige Gruppe innerhalb des Vereins.
         </p>
         <p>
           Als Chorleiter Stefan Vis ebenfalls im Jahre 2004 den Verein aus
           Zeitgründen verlassen musste, übernahm Frank Schaab die Leitung und
           prägte die Entwicklung ConBrios ganz entscheidend. Unter seiner
-          Leitung erreichte der Chor beim Wettbewerb „Jugend singt“ 2006 den
+          Leitung erreichte der Chor beim Wettbewerb <i>Jugend singt</i> 2006 den
           Titel als bester Jugendchor des Bundeslandes NRW. Es folgten vier
           Meisterchortitel im Chorverband NRW, zuletzt 2019. Heute besteht der
           Chor aus etwa 25 Frauen und Männern – die meisten im Alter zwischen
           30 und 45 Jahren.
         </p>
-      </div>
-    </div>
-    <div class="row cb-grey pb-4">
-      <div class="col">
+
         <h1 id="chorleitung">Unser Chorleiter</h1>
         <h3>Volker Wierz</h3>
         <img
           src="assets/images/volkerwierz.jpg"
-          class="img-fluid mb-3"
+          class="img-fluid ms-lg-3 mb-3 mb-lg-0 float-lg-end"
           alt="Chorleiter Volker Wierz"
         >
         <p>
@@ -155,14 +168,17 @@
           Erwachsenenchören sowie internationale Projektchöre. Mit seiner Berufung
           zum Kreischorleiter des Sängerkreises Rhein-Wupper / Leverkusen übernahm
           er von 2009 bis 2018 die Leitung des Projektchores des Sängerkreises
-          Rhein-Wupper / Leverkusen „FusionaLEVocale“.
+          Rhein-Wupper / Leverkusen <i>FusionaLEVocale</i>.
         </p>
         <p>
-          Gegenwärtig ist er musikalischer Leiter der „Good Voices Dürscheid“,
-          des Vokalensembles „Art Tonale“ und des „Gemischten Chores ConBrio“.
+          Gegenwärtig ist er musikalischer Leiter der <i>Good Voices Dürscheid</i>,
+          des Vokalensembles <i>Art Tonale</i> und des <i>Gemischten Chores ConBrio</i>.
         </p>
       </div>
+    </div>
   </div>
-  <script src="assets/js/bootstrap.bundle.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="assets/js/custom.js"></script>
 </body>
 </html>
