@@ -9,6 +9,7 @@
 
 /* Breakpoint Extra Small (< 576px) */
 body {
+  background-color: var(--cb-gold);
   background-image: url("../images/background-sm.jpg");
   background-repeat: repeat-y;
   background-attachment: scroll;
@@ -54,6 +55,10 @@ h3 {
 p {
   font-family: "Merriweather Sans", sans-serif;
   line-height: 200%;
+}
+
+p:last-child {
+  margin-bottom: 3rem;
 }
 
 .bg-dark {
@@ -109,6 +114,10 @@ p {
 
 /* Breakpoint Small (sm) */
 @media (min-width: 576px) {
+  p:last-child {
+    margin-bottom: 1rem;
+  }
+
   #cb-header-row {
     margin-top: 7.8rem;
   }
