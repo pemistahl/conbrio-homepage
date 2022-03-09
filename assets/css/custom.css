@@ -164,6 +164,12 @@ p:last-child {
 
 /* Breakpoint Large (lg) */
 @media (min-width: 992px) {
+  #cb-img-conbrio-2014 {
+    width: 40%;
+  }
+  #cb-img-conbrio-2018 {
+    width: 60%;
+  }
   #cb-header-row {
     margin-top: 11.7rem;
   }
