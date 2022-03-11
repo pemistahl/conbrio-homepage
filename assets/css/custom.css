@@ -1,10 +1,11 @@
 /* custom global variables */
 :root {
   --cb-blue: #16548b;
-  --cb-light-gold: #FFDB99;
+  --cb-light-gold: #f4e6cd;
   --cb-gold: #8c734b;
-  --cb-light-grey: #dedede;
+  --cb-dark-gold: #6A5839;
   --cb-grey: #8b8a8e;
+  --cb-dark-grey: #656468;
 }
 
 /* custom fonts */
@@ -23,7 +24,7 @@
 
 /* Breakpoint Extra Small (< 576px) */
 body {
-  background-color: var(--cb-gold);
+  background-color: var(--cb-blue);
   background-image: url("../images/background-sm.jpg");
   background-repeat: repeat-y;
   background-attachment: scroll;
@@ -107,38 +108,43 @@ p {
 }
 
 #cb-img-conbrio-2014 {
-  width: 70%;
+  width: 75%;
 }
 
 #cb-img-chorleitung {
   width: 60%;
 }
 
-.cb-light-gold {
+.cb-gold {
   background-color: var(--cb-light-gold);
 }
 
-.cb-light-gold h2 {
-  font-family: "Oooh Baby", sans-serif;
-  font-weight: bold;
-  color: var(--cb-gold);
-  text-align: center;
-}
-
-.cb-gold {
-  background-color: var(--cb-gold);
+.cb-gold hr {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: .1rem;
+  color: var(--cb-blue);
+  opacity: 1;
 }
 
 .cb-gold h1 {
-  color: var(--cb-light-gold);
+  color: var(--cb-blue);
+}
+
+.cb-gold h2 {
+  font-family: "Oooh Baby", sans-serif;
+  font-weight: bold;
+  color: var(--cb-dark-grey);
+  text-align: center;
 }
 
 .cb-gold h3 {
-  color: var(--cb-light-grey);
+  color: var(--cb-dark-gold);
 }
 
 .cb-gold p {
-  color: white;
+  color: var(--cb-dark-grey);
 }
 
 /* Custom breakpoint for header logo */
@@ -213,7 +219,7 @@ p {
   #cb-header-logo {
     width: 16rem;
   }
-  .cb-light-gold h2 {
+  .cb-gold h2 {
     font-size: 2.2rem;
     padding-left: 8rem;
     padding-right: 8rem;
@@ -234,7 +240,7 @@ p {
   #cb-header-logo {
     width: 18rem;
   }
-  .cb-light-gold h2 {
+  .cb-gold h2 {
     padding-left: 14rem;
     padding-right: 14rem;
   }
