@@ -7,6 +7,20 @@
   --cb-grey: #8b8a8e;
 }
 
+/* custom fonts */
+/*
+@font-face {
+  font-family: Akrobat;
+  src: url("../fonts/akrobat-semibold.woff2");
+}
+
+@font-face {
+  font-family: Akrobat;
+  src: url("../fonts/akrobat-bold.woff2");
+  font-weight: bold;
+}
+*/
+
 /* Breakpoint Extra Small (< 576px) */
 body {
   background-color: var(--cb-gold);
@@ -74,7 +88,7 @@ p {
   line-height: 200%;
 }
 
-p:last-child {
+#about-section p:last-child {
   margin-bottom: 3rem;
 }
 
@@ -89,6 +103,25 @@ p:last-child {
 #cb-header-logo {
   margin-top: 1.2rem;
   width: 7rem;
+}
+
+#cb-img-conbrio-2014 {
+  width: 70%;
+}
+
+#cb-img-chorleitung {
+  width: 60%;
+}
+
+.cb-light-gold {
+  background-color: var(--cb-light-gold);
+}
+
+.cb-light-gold h2 {
+  font-family: "Oooh Baby", sans-serif;
+  font-weight: bold;
+  color: var(--cb-gold);
+  text-align: center;
 }
 
 .cb-gold {
@@ -131,7 +164,7 @@ p:last-child {
 
 /* Breakpoint Small (sm) */
 @media (min-width: 576px) {
-  p:last-child {
+  #about-section p:last-child {
     margin-bottom: 1rem;
   }
 
@@ -170,11 +203,19 @@ p:last-child {
   #cb-img-conbrio-2018 {
     width: 60%;
   }
+  #cb-img-chorleitung {
+    width: 30%;
+  }
   #cb-header-row {
     margin-top: 11.7rem;
   }
   #cb-header-logo {
     width: 16rem;
+  }
+  .cb-light-gold h2 {
+    font-size: 2.2rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
   .navbar-dark .navbar-nav .nav-link, p {
     font-size: 1.3rem;
@@ -191,6 +232,10 @@ p:last-child {
   }
   #cb-header-logo {
     width: 18rem;
+  }
+  .cb-light-gold h2 {
+    padding-left: 14rem;
+    padding-right: 14rem;
   }
   .navbar-dark .navbar-nav .nav-link, p {
     font-size: 1.4rem;
