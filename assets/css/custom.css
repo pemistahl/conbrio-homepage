@@ -86,6 +86,7 @@ h3 {
 p {
   font-family: "Merriweather Sans", sans-serif;
   line-height: 200%;
+  word-spacing: 0.1rem;
 }
 
 #about-section p:last-child {
