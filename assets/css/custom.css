@@ -88,6 +88,8 @@ p {
   font-family: "Merriweather Sans", sans-serif;
   line-height: 200%;
   word-spacing: 0.1rem;
+  color: var(--cb-dark-grey);
+  font-size: 1.1rem;
 }
 
 #about-section p:last-child {
@@ -143,10 +145,6 @@ p {
   color: var(--cb-dark-gold);
 }
 
-.cb-gold p {
-  color: var(--cb-dark-grey);
-}
-
 /* Custom breakpoint for header logo */
 @media (min-width: 390px) {
   #cb-header-row {
@@ -184,7 +182,7 @@ p {
   #cb-header-logo {
     width: 10rem;
   }
-  .navbar-dark .navbar-nav .nav-link, p {
+  .navbar-dark .navbar-nav .nav-link {
     font-size: 1.1rem;
   }
 }
