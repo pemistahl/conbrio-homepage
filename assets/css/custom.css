@@ -1,10 +1,12 @@
 /* custom global variables */
 :root {
+  --cb-warm-white: #fff8f0;
+  --cb-light-blue: #8ba7c2;
   --cb-blue: #16548b;
   --cb-light-gold: #f4e6cd;
-  --cb-light-transparent-gold: rgba(244, 230, 205, 0.9);
   --cb-gold: #8c734b;
   --cb-grey: #8b8a8e;
+  --cb-dark-grey: #7D7B79;
 }
 
 /* custom fonts */
@@ -23,16 +25,18 @@
 
 /* Breakpoint Extra Small (< 576px) */
 body {
-  background-color: var(--cb-blue);
+  background-color: var(--cb-light-blue);
+  /*
   background-image: url("../images/background-sm.jpg");
   background-repeat: repeat-y;
   background-attachment: scroll;
   background-position: top center;
   background-size: contain;
+  */
 }
 
 nav {
-  font-family: Merriweather, serif;
+  font-family: "Merriweather Sans", sans-serif;
   font-weight: bold;
   margin-left: -0.75rem;
   margin-right: -0.75rem;
@@ -43,7 +47,7 @@ nav {
   margin-right: auto;
   background-color: var(--cb-blue);
   border-radius: .5rem;
-  color: white;
+  color: var(--cb-warm-white);
 }
 
 .navbar-toggler:focus {
@@ -60,16 +64,16 @@ nav {
 }
 
 .nav-link {
-  color: white !important;
+  color: var(--cb-warm-white) !important;
 }
 
 .nav-link:hover {
-  background-color: white !important;
+  background-color: var(--cb-warm-white) !important;
   color: var(--cb-blue) !important;
 }
 
 h1, h3 {
-  font-family: Merriweather, serif;
+  font-family: "Merriweather Sans", sans-serif;
   font-weight: bold;
 }
 
@@ -96,7 +100,7 @@ p {
   font-family: "Merriweather Sans", sans-serif;
   line-height: 175%;
   word-spacing: 0.1rem;
-  color: var(--cb-grey);
+  color: var(--cb-dark-grey);
 }
 
 hr {
@@ -134,7 +138,7 @@ hr {
 }
 
 .row {
-  background-color: var(--cb-light-gold);
+  background-color: var(--cb-warm-white);
 }
 
 /* Custom breakpoint for header logo */
@@ -161,10 +165,6 @@ hr {
 
 /* Breakpoint Small (sm) */
 @media (min-width: 576px) {
-  .row {
-    background-color: var(--cb-light-transparent-gold);
-  }
-
   #about-section p:last-child {
     margin-bottom: 1rem;
   }
@@ -225,9 +225,11 @@ hr {
 
 /* Breakpoint Extra Large (xl) */
 @media (min-width: 1200px) {
+  /*
   body {
     background-image: url("../images/background-xl.jpg");
   }
+  */
   #cb-header-row {
     margin-top: 12.9rem;
   }
