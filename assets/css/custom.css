@@ -11,14 +11,7 @@
 
 /* Breakpoint Extra Small (< 576px) */
 body {
-  background-color: var(--cb-light-blue);
-  /*
-  background-image: url("../images/background-sm.jpg");
-  background-repeat: repeat-y;
-  background-attachment: scroll;
-  background-position: top center;
-  background-size: contain;
-  */
+  background-color: var(--cb-blue);
 }
 
 nav {
@@ -26,6 +19,10 @@ nav {
   font-weight: bold;
   margin-left: -0.75rem;
   margin-right: -0.75rem;
+}
+
+footer {
+  margin-bottom: 4rem;
 }
 
 .navbar-toggler {
@@ -44,12 +41,22 @@ nav {
   padding-bottom: 0;
 }
 
-#cb-navbarContent {
+#cb-navbar-content {
   background-color: var(--cb-blue);
   text-align: center;
 }
 
+#cb-footer-navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#cb-footer-content {
+  background-color: var(--cb-gold);
+}
+
 .col a {
+  font-family: "Merriweather Sans", sans-serif;
   color: var(--cb-gold);
   border-bottom: 1px solid var(--cb-gold);
   text-decoration: none;
@@ -67,9 +74,18 @@ nav {
   color: var(--cb-warm-white) !important;
 }
 
-.nav-link:hover {
+#cb-navbar-content .nav-link:hover {
   background-color: var(--cb-warm-white) !important;
   color: var(--cb-blue) !important;
+}
+
+#cb-footer-content {
+  text-align: center;
+}
+
+#cb-footer-content .nav-link:hover {
+  background-color: var(--cb-warm-white) !important;
+  color: var(--cb-gold) !important;
 }
 
 h1, h2, h3 {
@@ -122,8 +138,12 @@ hr {
   opacity: 1;
 }
 
-.bg-dark {
+#cb-navigation.bg-dark {
   background-color: var(--cb-blue) !important;
+}
+
+#cb-footer-navbar.bg-dark {
+  background-color: var(--cb-gold) !important;
 }
 
 #cb-header-row {
@@ -168,6 +188,12 @@ hr {
 
 /* Breakpoint Small (sm) */
 @media (min-width: 576px) {
+  body {
+    background-color: var(--cb-light-blue);
+  }
+  footer {
+    margin-bottom: 0;
+  }
   #cb-navigation {
     padding-bottom: .5rem;
   }

@@ -31,27 +31,29 @@
 </head>
 <body>
   <div class="container">
-    <div id="cb-header-row" class="row">
-      <div class="col p-0">
-        <img
-          id="cb-header-logo"
-          src="assets/images/logo.png"
-          class="img-fluid position-absolute top-0 start-50 translate-middle-x"
-          alt="ConBrio-Logo"
-        >
-        <img
-          src="assets/images/chor2022.jpg"
-          class="img-fluid"
-          alt="Gruppenaufnahme des Chores"
-        >
+    <header>
+      <div id="cb-header-row" class="row">
+        <div class="col p-0">
+          <img
+            id="cb-header-logo"
+            src="assets/images/logo.png"
+            class="img-fluid position-absolute top-0 start-50 translate-middle-x"
+            alt="ConBrio-Logo"
+          >
+          <img
+            src="assets/images/chor2022.jpg"
+            class="img-fluid"
+            alt="Gruppenaufnahme des Chores"
+          >
+        </div>
       </div>
-    </div>
+    </header>
     <nav id="cb-navigation" class="navbar navbar-expand-sm navbar-dark bg-dark">
       <div class="container-fluid">
-        <button class="navbar-toggler p-3" type="button" data-bs-toggle="collapse" data-bs-target="#cb-navbarContent" aria-controls="cb-navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler p-3" type="button" data-bs-toggle="collapse" data-bs-target="#cb-navbar-content" aria-controls="cb-navbar-content" aria-expanded="false" aria-label="Toggle navigation">
           Menü
         </button>
-        <div class="collapse navbar-collapse justify-content-center" id="cb-navbarContent">
+        <div id="cb-navbar-content" class="collapse navbar-collapse justify-content-center">
           <div class="navbar-nav">
             <a class="nav-link px-sm-4 px-md-5" href="#ueberuns">Über uns</a>
             <a class="nav-link px-sm-4 px-md-5" href="#konzerte">Konzerte</a>
@@ -62,199 +64,217 @@
     </nav>
     <div class="row pb-4">
       <div class="col px-sm-3 px-md-4 px-xl-5">
-        <h1>Willkommen beim gemischten Chor ConBrio</h1>
-        <p>
-          ConBrio – das steht für den Funken der Begeisterung, der immer wieder
-          überspringt. Der Solinger Meisterchor im Chorverband NRW hat sich der
-          musikalischen Vielfalt verschrieben und zeigt unter der Leitung von
-          <a href="#chorleitung">Volker Wierz</a> lebhaft und voller Feingefühl eine große stilistische
-          Bandbreite. <a href="#ueberuns">Mehr zum Chor</a>
-        </p>
+        <section>
+          <h1>Willkommen beim gemischten Chor ConBrio</h1>
+          <p>
+            ConBrio – das steht für den Funken der Begeisterung, der immer wieder
+            überspringt. Der Solinger Meisterchor im Chorverband NRW hat sich der
+            musikalischen Vielfalt verschrieben und zeigt unter der Leitung von
+            <a href="#chorleitung">Volker Wierz</a> lebhaft und voller Feingefühl eine große stilistische
+            Bandbreite. <a href="#ueberuns">Mehr zum Chor</a>
+          </p>
 
-        <h3>ConBrio erleben</h3>
-        <p>
-          <strong>Sing We And Chant It!</strong><br>
-          <i>Mit ConBrio klangvoll durch die Jahrhunderte</i>
-        </p>
-        <ul>
-          <li><strong>Samstag, 21.5.2022, 19 Uhr</strong> in der Citykirche Elberfeld, Kirchplatz 2, 42103 Wuppertal</li>
-          <li><strong>Sonntag, 22.5.2022, 17 Uhr</strong> in der Dorper Kirche, Schützenstraße 159, 42659 Solingen</li>
-        </ul>
-        <p><a href="#konzerte">Mehr zu Konzerten</a></p>
+          <h3>ConBrio erleben</h3>
+          <p>
+            <strong>Sing We And Chant It!</strong><br>
+            <i>Mit ConBrio klangvoll durch die Jahrhunderte</i>
+          </p>
+          <ul>
+            <li><strong>Samstag, 21.5.2022, 19 Uhr</strong> in der Citykirche Elberfeld, Kirchplatz 2, 42103 Wuppertal</li>
+            <li><strong>Sonntag, 22.5.2022, 17 Uhr</strong> in der Dorper Kirche, Schützenstraße 159, 42659 Solingen</li>
+          </ul>
+          <p><a href="#konzerte">Mehr zu Konzerten</a></p>
 
-        <h3>Mitsingen</h3>
-        <p>
-          Du magst musikalische Vielfalt und hast Freude am gemeinsamen Klang?
-          Dann schreibe uns gerne an
-          <a href="mailto:info@gemischterchor-conbrio.de">info@gemischterchor-conbrio.de</a>.
-        </p>
-        <p>
-          Wir proben freitags von 19 bis 21 Uhr im Helga-Leister-Haus in Solingen.
-          <a href="#mitsingen">Mehr erfahren</a>
-        </p>
+          <h3>Mitsingen</h3>
+          <p>
+            Du magst musikalische Vielfalt und hast Freude am gemeinsamen Klang?
+            Dann schreibe uns gerne an
+            <a href="mailto:info@gemischterchor-conbrio.de">info@gemischterchor-conbrio.de</a>.
+          </p>
+          <p>
+            Wir proben freitags von 19 bis 21 Uhr im Helga-Leister-Haus in Solingen.
+            <a href="#mitsingen">Mehr erfahren</a>
+          </p>
+        </section>
+        <section>
+          <h2 id="ueberuns">Über uns</h2>
+          <p>
+            <i>ConBrio</i> – das steht für Chorgesang auf hohem Niveau, für den Funken der
+            Begeisterung, der vom Chor auf das Publikum überspringt. Der Solinger
+            Meisterchor im Chorverband NRW hat sich der musikalischen Vielfalt
+            verschrieben und zeigt unter der Leitung von <a href="#chorleitung">Volker Wierz</a>
+            lebhaft und voller Feingefühl eine große stilistische Bandbreite. Von Beginn an hat
+            der Chor sich in seinen Konzertprojekten immer wieder neue Schwerpunkte
+            gesetzt, um sich fortlaufend musikalisch weiterzuentwickeln. Das Repertoire
+            zieht sich quer durch 500 Jahre Musikgeschichte – ob a cappella, mit
+            sinfonischem Orchester oder mit Rockband. Unter dem Namen <i>Gemischter Chor
+            ConBrio</i> bildet der Chor innerhalb des
+            <a href="https://saengerbundgraefrath.jimdofree.com/" target="_blank">Sängerbund Gräfrath 1846 e.V.</a>
+            eine eigenständige Gruppe.
+          </p>
+          <p>
+            ConBrio ist mehr als eine Gruppe von miteinander singenden Individuen.
+            Wir sind eine Gemeinschaft, die von der Liebe zur schönen und
+            abwechslungsreichen Musik geeint jeden Freitag zusammenkommt, um erst
+            schöne Klänge in konzentrierten Proben zu erarbeiten und anschließend
+            gesellig den Abend ausklingen zu lassen.
+          </p>
+          <p>
+            Wir sind ein Chor, der Vielfalt lebt, und das nicht nur in der Musik.
+            Bei uns treffen Generationen aufeinander, unterschiedliche Leistungsniveaus
+            und unterschiedliche Lebenswege. Der Chor verbindet uns in Gemeinschaft
+            und Klang, und in dem Willen, immer wieder Neues auszuprobieren und dazuzulernen.
+          </p>
 
-        <h2 id="ueberuns">Über uns</h2>
-        <p>
-          <i>ConBrio</i> – das steht für Chorgesang auf hohem Niveau, für den Funken der
-          Begeisterung, der vom Chor auf das Publikum überspringt. Der Solinger
-          Meisterchor im Chorverband NRW hat sich der musikalischen Vielfalt
-          verschrieben und zeigt unter der Leitung von <a href="#chorleitung">Volker Wierz</a>
-          lebhaft und voller Feingefühl eine große stilistische Bandbreite. Von Beginn an hat
-          der Chor sich in seinen Konzertprojekten immer wieder neue Schwerpunkte
-          gesetzt, um sich fortlaufend musikalisch weiterzuentwickeln. Das Repertoire
-          zieht sich quer durch 500 Jahre Musikgeschichte – ob a cappella, mit
-          sinfonischem Orchester oder mit Rockband. Unter dem Namen <i>Gemischter Chor
-          ConBrio</i> bildet der Chor innerhalb des
-          <a href="https://saengerbundgraefrath.jimdofree.com/" target="_blank">Sängerbund Gräfrath 1846 e.V.</a>
-          eine eigenständige Gruppe.
-        </p>
-        <p>
-          ConBrio ist mehr als eine Gruppe von miteinander singenden Individuen.
-          Wir sind eine Gemeinschaft, die von der Liebe zur schönen und
-          abwechslungsreichen Musik geeint jeden Freitag zusammenkommt, um erst
-          schöne Klänge in konzentrierten Proben zu erarbeiten und anschließend
-          gesellig den Abend ausklingen zu lassen.
-        </p>
-        <p>
-          Wir sind ein Chor, der Vielfalt lebt, und das nicht nur in der Musik.
-          Bei uns treffen Generationen aufeinander, unterschiedliche Leistungsniveaus
-          und unterschiedliche Lebenswege. Der Chor verbindet uns in Gemeinschaft
-          und Klang, und in dem Willen, immer wieder Neues auszuprobieren und dazuzulernen.
-        </p>
+          <h3 id="chorleitung">Chorleitung</h3>
+          <p>
+            Volker Wierz studierte Schulmusik und Gesangspädagogik in Dortmund.
+            Bereits zu Studienzeiten leitete er verschiedene Chöre unterschiedlichster
+            Stilrichtungen. Neben seiner freiberuflichen gesangspädagogischen Tätigkeit hat er
+            als Sänger unter anderem schon mit Karlheinz Stockhausen und Frieder Bernius
+            zusammengearbeitet.
+          </p>
+          <p>
+            1996 erhielt er einen Lehrauftrag für Gesang an der Universität Dortmund und war
+            zudem Stimmbildner des Kammerchores der Universität. Als Referent für chorische
+            Stimmbildung betreut er seitdem die unterschiedlichsten Gesangsensembles:
+            Vom Quartett über Kinder- und Jugendchöre bis hin zu Erwachsenenchören sowie
+            internationalen Projektchören. Mit seiner Berufung zum Kreischorleiter des
+            Sängerkreises Rhein-Wupper / Leverkusen übernahm er von 2009 bis 2018 die Leitung
+            des Projektchores des Sängerkreises Rhein-Wupper / Leverkusen <i>FusionaLEVocale</i>.
+          </p>
+          <p>
+            Nach wie vor gibt er als freiberuflicher Gesangspädagoge Unterricht und leitet
+            zurzeit die folgenden Chöre: den Männerchor
+            <a href="https://www.mgv-duerscheid.de/index.php/unsere-choere/good-voices-duerscheid-maennerchor" target="_blank"><i>Good Voices Dürscheid</i></a>,
+            das Leverkusener Vokalensemble <a href="https://www.art-tonale.de/" target="_blank"><i>Art Tonale</i></a> und <i>ConBrio</i>.
+          </p>
+        </section>
+        <section>
+          <h2 id="konzerte">Konzerte</h2>
+          <h3>Das aktuelle Programm</h3>
+          <p>
+            <strong>Sing We And Chant It!</strong><br>
+            <i>Mit ConBrio klangvoll durch die Jahrhunderte</i>
+          </p>
+          <p>
+            Musik aus fünf Jahrhunderten, von der Renaissance bis zur Moderne: von Madrigal über
+            Volkslied bis Jazz, von Schütz, Purcell, Bartok und Hindemith bis zu unbekannten
+            Komponisten, die zu entdecken sich lohnt. Im Programm Sing We and Chant it! präsentiert
+            ConBrio gewohnt lebhaft und voller Feingefühl eine große stilistische Bandbreite mit
+            dem Schwerpunkt auf A-cappella-Musik.
+          </p>
+          <p>
+            <strong>Samstag, 21.5.2022, 19 Uhr</strong><br>
+            Citykirche Elberfeld, Kirchplatz 2, 42103 Wuppertal<br>
+            Kartenvorverkauf über <a href="https://www.wuppertal-live.de" target="_blank">wuppertal-live.de</a>
+          </p>
+          <p>
+            <strong>Sonntag, 22.5.2022, 17 Uhr</strong><br>
+            Dorper Kirche, Schützenstraße 159, 42659 Solingen<br>
+            Kartenvorverkauf über <a href="https://www.solingen-live.de?405066" target="_blank">solingen-live.de</a>
+          </p>
+          <p>
+            <strong>Eintritt:</strong> 12 Euro, ermäßigt: 7 Euro (Jugendliche und Studierende)<br>
+            Kinder bis 12 Jahre haben freien Eintritt.
+          </p>
+          <p>
+            <strong>Jetzt schon vormerken:</strong> Am <strong>7.8.2022</strong> können Sie ConBrio <i>Open Air</i> beim Konzerttag der
+            Evangelischen Kirchengemeinde Unterburg erleben. Adresse: Müngstener Straße 21, 42659 Solingen
+          </p>
 
-        <h3 id="chorleitung">Chorleitung</h3>
-        <p>
-          Volker Wierz studierte Schulmusik und Gesangspädagogik in Dortmund.
-          Bereits zu Studienzeiten leitete er verschiedene Chöre unterschiedlichster
-          Stilrichtungen. Neben seiner freiberuflichen gesangspädagogischen Tätigkeit hat er
-          als Sänger unter anderem schon mit Karlheinz Stockhausen und Frieder Bernius
-          zusammengearbeitet.
-        </p>
-        <p>
-          1996 erhielt er einen Lehrauftrag für Gesang an der Universität Dortmund und war
-          zudem Stimmbildner des Kammerchores der Universität. Als Referent für chorische
-          Stimmbildung betreut er seitdem die unterschiedlichsten Gesangsensembles:
-          Vom Quartett über Kinder- und Jugendchöre bis hin zu Erwachsenenchören sowie
-          internationalen Projektchören. Mit seiner Berufung zum Kreischorleiter des
-          Sängerkreises Rhein-Wupper / Leverkusen übernahm er von 2009 bis 2018 die Leitung
-          des Projektchores des Sängerkreises Rhein-Wupper / Leverkusen <i>FusionaLEVocale</i>.
-        </p>
-        <p>
-          Nach wie vor gibt er als freiberuflicher Gesangspädagoge Unterricht und leitet
-          zurzeit die folgenden Chöre: den Männerchor
-          <a href="https://www.mgv-duerscheid.de/index.php/unsere-choere/good-voices-duerscheid-maennerchor" target="_blank"><i>Good Voices Dürscheid</i></a>,
-          das Leverkusener Vokalensemble <a href="https://www.art-tonale.de/" target="_blank"><i>Art Tonale</i></a> und <i>ConBrio</i>.
-        </p>
+          <h3>Der Blick zurück: Einige Konzert-Highlights</h3>
+          <p>
+            <strong>2019: Doppelschicht Vokal</strong> – Jazz, Pop und Skandinavisches a cappella und gemeinsam mit dem
+            Ensemble <a href="http://vokalschlag.de/" target="_blank">Vokalschlag</a> in der Robuso-Stahlwarenfabrik
+          </p>
+          <p>
+            <strong>2018: Mozart Requiem</strong> - gemeinsam mit <a href="http://chor-kreuzfidel.de/" target="_blank">Kreuzfidel</a>
+          </p>
+          <p>
+            <strong>2017: 1001 Tropfen</strong> – Auftritt im Wald bei der Tanztriologie im Bergischen Land
+          </p>
+          <p>
+            <strong>2017: Geschichten von Nachtigall und Lerche</strong> – a cappella von Dowland, über Brahms bis
+            Coldplay, Konzerte in Solingen und Nordengland (ConBrio auf Reisen)
+          </p>
+          <p>
+            <strong>2016: Mein Herz und Sinn sanft und still</strong> – Geistliche a-cappella-Gesänge von Brahms,
+            Mendelssohn, Stanford und anderen
+          </p>
+          <p>
+            <strong>2015: Music when soft voices die</strong> – ein a-cappella-Sommernachtskonzert im Klingenmuseum
+          </p>
+          <p>
+            <strong>2014: ConBrio explizit</strong> – Perlen der Kleinkunst-, Kabarett- und Liedermacherszene
+          </p>
+          <p>
+            <strong>2013: Geistliches Chorkonzert Gräfrather Chöre</strong> – Bach, Buxtehude und Vivaldi
+          </p>
+          <p>
+            <strong>2012: Klanglandschaft</strong> – a-cappella-Konzerte in Solingen und Norwegen (ConBrio auf Reisen)
+          </p>
+          <p>
+            <strong>2011: ConBrio on the rocks</strong> – Chor trifft Band
+          </p>
+          <p>
+            ... und alle Jahre wieder das stimmungsvolle Adventskonzert gemeinsam mit dem Sängerbund
+          </p>
 
-        <h2 id="konzerte">Konzerte</h2>
-        <h3>Das aktuelle Programm</h3>
-        <p>
-          <strong>Sing We And Chant It!</strong><br>
-          <i>Mit ConBrio klangvoll durch die Jahrhunderte</i>
-        </p>
-        <p>
-          Musik aus fünf Jahrhunderten, von der Renaissance bis zur Moderne: von Madrigal über
-          Volkslied bis Jazz, von Schütz, Purcell, Bartok und Hindemith bis zu unbekannten
-          Komponisten, die zu entdecken sich lohnt. Im Programm Sing We and Chant it! präsentiert
-          ConBrio gewohnt lebhaft und voller Feingefühl eine große stilistische Bandbreite mit
-          dem Schwerpunkt auf A-cappella-Musik.
-        </p>
-        <p>
-          <strong>Samstag, 21.5.2022, 19 Uhr</strong><br>
-          Citykirche Elberfeld, Kirchplatz 2, 42103 Wuppertal<br>
-          Kartenvorverkauf über <a href="https://www.wuppertal-live.de" target="_blank">wuppertal-live.de</a>
-        </p>
-        <p>
-          <strong>Sonntag, 22.5.2022, 17 Uhr</strong><br>
-          Dorper Kirche, Schützenstraße 159, 42659 Solingen<br>
-          Kartenvorverkauf über <a href="https://www.solingen-live.de?405066" target="_blank">solingen-live.de</a>
-        </p>
-        <p>
-          <strong>Eintritt:</strong> 12 Euro, ermäßigt: 7 Euro (Jugendliche und Studierende)<br>
-          Kinder bis 12 Jahre haben freien Eintritt.
-        </p>
-        <p>
-          <strong>Jetzt schon vormerken:</strong> Am <strong>7.8.2022</strong> können Sie ConBrio <i>Open Air</i> beim Konzerttag der
-          Evangelischen Kirchengemeinde Unterburg erleben. Adresse: Müngstener Straße 21, 42659 Solingen
-        </p>
+          <h3>ConBrio buchen</h3>
+          <p>
+            Sie haben etwas zu feiern? ConBrio tritt auch bei Hochzeiten und anderen freudigen Anlässen
+            auf. Schreiben Sie gerne an <a href="mailto:info@gemischterchor-conbrio.de">info@gemischterchor-conbrio.de</a>
+            einige Eckdaten zum Termin und was Sie sich vorstellen. Wir freuen uns auf Ihre Anfrage.
+          </p>
+        </section>
+        <section>
+          <h2 id="mitsingen">Mitsingen</h2>
+          <h3>MitSÄNGER gesucht</h3>
+          <p>
+            Singen ist voll Dein Ding? Du hast Lust auf Chormusik unterschiedlichster Stilrichtungen,
+            Sprachen und Epochen? Dann bist DU unser MANN!
+          </p>
 
-        <h3>Der Blick zurück: Einige Konzert-Highlights</h3>
-        <p>
-          <strong>2019: Doppelschicht Vokal</strong> – Jazz, Pop und Skandinavisches a cappella und gemeinsam mit dem
-          Ensemble <a href="http://vokalschlag.de/" target="_blank">Vokalschlag</a> in der Robuso-Stahlwarenfabrik
-        </p>
-        <p>
-          <strong>2018: Mozart Requiem</strong> - gemeinsam mit <a href="http://chor-kreuzfidel.de/" target="_blank">Kreuzfidel</a>
-        </p>
-        <p>
-          <strong>2017: 1001 Tropfen</strong> – Auftritt im Wald bei der Tanztriologie im Bergischen Land
-        </p>
-        <p>
-          <strong>2017: Geschichten von Nachtigall und Lerche</strong> – a cappella von Dowland, über Brahms bis
-          Coldplay, Konzerte in Solingen und Nordengland (ConBrio auf Reisen)
-        </p>
-        <p>
-          <strong>2016: Mein Herz und Sinn sanft und still</strong> – Geistliche a-cappella-Gesänge von Brahms,
-          Mendelssohn, Stanford und anderen
-        </p>
-        <p>
-          <strong>2015: Music when soft voices die</strong> – ein a-cappella-Sommernachtskonzert im Klingenmuseum
-        </p>
-        <p>
-          <strong>2014: ConBrio explizit</strong> – Perlen der Kleinkunst-, Kabarett- und Liedermacherszene
-        </p>
-        <p>
-          <strong>2013: Geistliches Chorkonzert Gräfrather Chöre</strong> – Bach, Buxtehude und Vivaldi
-        </p>
-        <p>
-          <strong>2012: Klanglandschaft</strong> – a-cappella-Konzerte in Solingen und Norwegen (ConBrio auf Reisen)
-        </p>
-        <p>
-          <strong>2011: ConBrio on the rocks</strong> – Chor trifft Band
-        </p>
-        <p>
-          ... und alle Jahre wieder das stimmungsvolle Adventskonzert gemeinsam mit dem Sängerbund
-        </p>
+          <h3>Was bekommst du bei uns?</h3>
+          <ul>
+            <li>vielseitige und anspruchsvolle Chormusik</li>
+            <li>professionelle und begeisternde Chorleitung</li>
+            <li>eine gut gelaunte Truppe von Mitsängern gemischten Alters</li>
+            <li>mindestens zwei Konzerte pro Jahr</li>
+            <li>zusätzlich Auftritte in abwechslungsreichen Locations</li>
+          </ul>
 
-        <h3>ConBrio buchen</h3>
-        <p>
-          Sie haben etwas zu feiern? ConBrio tritt auch bei Hochzeiten und anderen freudigen Anlässen
-          auf. Schreiben Sie gerne an <a href="mailto:info@gemischterchor-conbrio.de">info@gemischterchor-conbrio.de</a>
-          einige Eckdaten zum Termin und was Sie sich vorstellen. Wir freuen uns auf Ihre Anfrage.
-        </p>
+          <h3>Was bringst du mit?</h3>
+          <ul>
+            <li>Freude an Gesang und Mehrstimmigkeit, gerne auch mal in geteilter Besetzung</li>
+            <li>Spaß an konzentrierter, wöchentlicher Probenarbeit</li>
+            <li>idealerweise Chorerfahrung; musikalische und motivierte Einsteiger sind auch willkommen</li>
+          </ul>
 
-        <h2 id="mitsingen">Mitsingen</h2>
-        <h3>MitSÄNGER gesucht</h3>
-        <p>
-          Singen ist voll Dein Ding? Du hast Lust auf Chormusik unterschiedlichster Stilrichtungen,
-          Sprachen und Epochen? Dann bist DU unser MANN!
-        </p>
+          <h3>Wann und wo proben wir?</h3>
+          <p>
+            Freitags von 19 bis 21 Uhr im Helga-Leister-Haus, Kotter Straße 86, 42655 Solingen
+          </p>
 
-        <h3>Was bekommst du bei uns?</h3>
-        <ul>
-          <li>vielseitige und anspruchsvolle Chormusik</li>
-          <li>professionelle und begeisternde Chorleitung</li>
-          <li>eine gut gelaunte Truppe von Mitsängern gemischten Alters</li>
-          <li>mindestens zwei Konzerte pro Jahr</li>
-          <li>zusätzlich Auftritte in abwechslungsreichen Locations</li>
-        </ul>
-
-        <h3>Was bringst du mit?</h3>
-        <ul>
-          <li>Freude an Gesang und Mehrstimmigkeit, gerne auch mal in geteilter Besetzung</li>
-          <li>Spaß an konzentrierter, wöchentlicher Probenarbeit</li>
-          <li>idealerweise Chorerfahrung; musikalische und motivierte Einsteiger sind auch willkommen</li>
-        </ul>
-
-        <h3>Wann und wo proben wir?</h3>
-        <p>
-          Freitags von 19 bis 21 Uhr im Helga-Leister-Haus, Kotter Straße 86, 42655 Solingen
-        </p>
-
-        <h3>Interessiert?</h3>
-        <p>Dann freuen wir uns auf deine E-Mail an <a href="mailto:info@gemischterchor-conbrio.de">info@gemischterchor-conbrio.de</a>.</p>
+          <h3>Interessiert?</h3>
+          <p>Dann freuen wir uns auf deine E-Mail an <a href="mailto:info@gemischterchor-conbrio.de">info@gemischterchor-conbrio.de</a>.</p>
+        </section>
       </div>
     </div>
+    <footer>
+      <nav id="cb-footer-navbar" class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+          <div id="cb-footer-content" class="navbar-collapse justify-content-center">
+            <div id="cb-footer-navbar-nav" class="navbar-nav justify-content-center">
+              <a class="nav-link px-sm-4 px-md-5" href="#">Kontakt</a>
+              <a class="nav-link px-sm-4 px-md-5" href="#">Impressum</a>
+              <a class="nav-link px-sm-4 px-md-5" href="#">Datenschutz</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </footer>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

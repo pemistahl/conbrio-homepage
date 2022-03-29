@@ -1,6 +1,6 @@
 const navbar = document.getElementById("cb-navigation");
 const navLinks = document.querySelectorAll(".nav-link");
-const menuToggle = document.getElementById("cb-navbarContent");
+const menuToggle = document.getElementById("cb-navbar-content");
 const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle:false});
 
 function toggleNavbar() {
