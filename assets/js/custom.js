@@ -1,9 +1,13 @@
 const navbar = document.getElementById("cb-navigation");
-const navLinks = document.querySelectorAll(".nav-link");
+const navLinks = document.querySelectorAll("#cb-navbar-nav > .nav-link");
 const menuToggle = document.getElementById("cb-navbar-content");
+const menuButton = document.getElementById("cb-menu-button");
+const mainContent = document.getElementById("cb-main-content");
 const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle:false});
 
 function toggleNavbar() {
+  mainContent.addEventListener("touchstart", () => bsCollapse.hide());
+  menuButton.addEventListener("focusout", () => bsCollapse.hide());
   navLinks.forEach((l) => {
     l.addEventListener("click", () => {
       if (!window.matchMedia("(min-width: 576px)").matches) {
