@@ -20,14 +20,12 @@ function toggleNavbar() {
 function positionNavbar() {
   if (window.matchMedia("(min-width: 576px)").matches) {
     navbar.classList.remove("fixed-bottom");
-    navbar.classList.add("sticky-top", "navbar-dark", "bg-dark");
-    /*
-    if (window.matchMedia("(min-height: 800px)").matches) {
+    navbar.classList.add("navbar-dark", "bg-dark");
+    if (window.matchMedia("(min-height: 500px)").matches) {
       navbar.classList.add("sticky-top");
     } else {
       navbar.classList.remove("sticky-top");
     }
-    */
   } else {
     navbar.classList.remove("sticky-top", "navbar-dark", "bg-dark");
     navbar.classList.add("fixed-bottom");

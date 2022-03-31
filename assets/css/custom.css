@@ -331,3 +331,13 @@ ul {
     margin-left: 7rem;
   }
 }
+
+@media (min-width: 1600px) {
+  body {
+    background-image: url("../images/background-xl.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+  }
+}
