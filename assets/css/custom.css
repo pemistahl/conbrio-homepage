@@ -125,13 +125,20 @@ p, ul {
 }
 
 h1, h2, h3, p {
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 ul {
-  padding-left: 4rem;
-  padding-right: 2rem;
+  padding-left: 5rem;
+  padding-right: 3rem;
+}
+
+#cb-image-chorleiter {
+  width: 10rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 1rem;
 }
 
 #cb-navigation.bg-dark {
@@ -144,7 +151,7 @@ ul {
 
 #cb-header-row {
   padding-top: 5.8rem;
-  background-image: url("../images/background.jpg");
+  background-image: url("../images/background-sm.jpg");
   background-repeat: repeat-y;
   background-attachment: scroll;
   background-position: top center;
@@ -206,6 +213,19 @@ ul {
   .navbar-dark .navbar-nav .nav-link, p, ul {
     font-size: 1.1rem;
   }
+  h1, h2, h3, p {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  ul {
+    padding-left: 6rem;
+    padding-right: 4rem;
+  }
+  #cb-image-chorleiter {
+    width: 14rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
 }
 
 /* Breakpoint Medium (md) */
@@ -219,11 +239,16 @@ ul {
   .navbar-dark .navbar-nav .nav-link, p, ul {
     font-size: 1.2rem;
   }
+  #cb-image-chorleiter {
+    margin-right: 1.2rem;
+    margin-top: .6rem;
+  }
 }
 
 /* Breakpoint Large (lg) */
 @media (min-width: 992px) {
   #cb-header-row {
+    background-image: url("../images/background-lg.jpg");
     padding-top: 11.7rem;
   }
   #cb-header-logo {
@@ -231,6 +256,22 @@ ul {
   }
   .navbar-dark .navbar-nav .nav-link, p, ul {
     font-size: 1.3rem;
+  }
+  h1, h2, h3, p {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  ul {
+    padding-left: 7.5rem;
+    padding-right: 5rem;
+  }
+  #cb-image-chorleiter {
+    width: 18rem;
+    margin-left: 5rem;
+  }
+  #cb-image-maenner {
+    width: 50rem;
+    margin-left: 5rem;
   }
 }
 
@@ -246,13 +287,19 @@ ul {
     font-size: 1.4rem;
   }
   h1, h2, h3, p {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
   }
-
   ul {
-    padding-left: 5rem;
-    padding-right: 2.5rem;
+    padding-left: 8.5rem;
+    padding-right: 6rem;
+  }
+  #cb-image-chorleiter {
+    margin-left: 6rem;
+  }
+  #cb-image-maenner {
+    width: 55rem;
+    margin-left: 6rem;
   }
 }
 
@@ -268,12 +315,19 @@ ul {
     font-size: 1.5rem;
   }
   h1, h2, h3, p {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
   }
-
   ul {
-    padding-left: 6rem;
-    padding-right: 3rem;
+    padding-left: 10rem;
+    padding-right: 7rem;
+  }
+  #cb-image-chorleiter {
+    width: 20rem;
+    margin-left: 7rem;
+  }
+  #cb-image-maenner {
+    width: 60rem;
+    margin-left: 7rem;
   }
 }

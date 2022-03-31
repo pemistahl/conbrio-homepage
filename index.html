@@ -40,11 +40,10 @@
             class="img-fluid position-absolute top-0 start-50 translate-middle-x"
             alt="ConBrio-Logo"
           >
-          <img
-            src="assets/images/chor2022.jpg"
-            class="img-fluid"
-            alt="Gruppenaufnahme des Chores"
-          >
+          <picture>
+            <source srcset="assets/images/header-lg.jpg" media="(min-width:992px)">
+            <img src="assets/images/header-sm.jpg" class="img-fluid" alt="Gruppenaufnahme des Chores">
+          </picture>
         </div>
       </div>
     </header>
@@ -64,7 +63,7 @@
     </nav>
     <main id="cb-main-content">
       <div class="row pb-4">
-        <div class="col px-sm-3 px-md-4 px-xl-5">
+        <div class="col px-0">
           <section>
             <h1>Willkommen beim gemischten Chor ConBrio</h1>
             <p>
@@ -113,6 +112,10 @@
               <a href="https://saengerbundgraefrath.jimdofree.com/" target="_blank">Sängerbund Gräfrath 1846 e.V.</a>
               eine eigenständige Gruppe.
             </p>
+            <picture>
+              <source srcset="assets/images/chor-lg.jpg" media="(min-width:992px)">
+              <img src="assets/images/chor-sm.jpg" class="img-fluid mt-3 mb-4" alt="ConBrio in der Ohligser Heide">
+            </picture>
             <p>
               ConBrio ist mehr als eine Gruppe von miteinander singenden Individuen.
               Wir sind eine Gemeinschaft, die von der Liebe zur schönen und
@@ -128,6 +131,12 @@
             </p>
 
             <h3 id="chorleitung">Chorleitung</h3>
+            <img
+              id="cb-image-chorleiter"
+              src="assets/images/volkerwierz.jpg"
+              class="img-fluid float-md-start"
+              alt="Chorleiter Volker Wierz"
+            >
             <p>
               Volker Wierz studierte Schulmusik und Gesangspädagogik in Dortmund.
               Bereits zu Studienzeiten leitete er verschiedene Chöre unterschiedlichster
@@ -236,6 +245,12 @@
               Singen ist voll dein Ding? Du hast Lust auf Chormusik unterschiedlichster Stilrichtungen,
               Sprachen und Epochen? Dann bist <strong>du</strong> unser <strong>Mann</strong>.
             </p>
+            <img
+              id="cb-image-maenner"
+              src="assets/images/maenner.jpg"
+              class="img-fluid"
+              alt="Unsere Tenöre und Bässe"
+            >
 
             <h3>Was bekommst du bei uns?</h3>
             <ul>
