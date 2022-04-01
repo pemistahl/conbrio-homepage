@@ -12,6 +12,9 @@
 /* Breakpoint Extra Small (< 576px) */
 body {
   background-color: var(--cb-blue);
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 nav {
@@ -23,6 +26,13 @@ nav {
 
 footer {
   margin-bottom: 4rem;
+}
+
+.cb-anchor {
+  display: block;
+  position: relative;
+  top: -50px;
+  visibility: hidden;
 }
 
 .navbar-toggler {
