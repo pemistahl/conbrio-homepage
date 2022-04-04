@@ -20,7 +20,7 @@ function toggleNavbar() {
   navLinks.forEach((l) => {
     l.addEventListener("click", () => {
       if (!window.matchMedia("(min-width: 576px)").matches) {
-        bsCollapse.toggle();
+        bsCollapse.hide();
       }
     });
   });
