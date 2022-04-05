@@ -1,5 +1,6 @@
 const altPicture = document.getElementById("cb-picture-alt");
 const sopranPicture = document.getElementById("cb-picture-sopran");
+const chorleitungPicture = document.getElementById("cb-picture-chorleitung");
 const plakatPicture = document.getElementById("cb-picture-plakat");
 const chorPicture = document.getElementById("cb-picture-chor");
 const maennerPicture = document.getElementById("cb-picture-maenner");
@@ -17,6 +18,7 @@ function setImagePlaceholder(picture, width, height) {
 
 setImagePlaceholder(altPicture, 1.101, 1);
 setImagePlaceholder(sopranPicture, 1.143, 1);
+setImagePlaceholder(chorleitungPicture, 1, 1.5);
 setImagePlaceholder(plakatPicture, 1, 1.414);
 setImagePlaceholder(chorPicture, 2.519, 1);
 setImagePlaceholder(maennerPicture, 1.155, 1);
