@@ -12,6 +12,9 @@
 /* Breakpoint Extra Small (< 576px) */
 body {
   background-color: var(--cb-blue);
+}
+
+main {
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
@@ -144,7 +147,7 @@ ul {
   padding-right: 3rem;
 }
 
-#cb-image-chorleiter {
+#cb-img-chorleitung {
   width: 10rem;
   margin-left: 3rem;
   margin-right: 3rem;
@@ -236,7 +239,7 @@ ul {
     padding-left: 6rem;
     padding-right: 4rem;
   }
-  #cb-image-chorleiter {
+  #cb-img-chorleitung {
     width: 14rem;
     margin-left: 4rem;
     margin-right: 4rem;
@@ -252,7 +255,7 @@ ul {
   .navbar-dark .navbar-nav .nav-link, p, ul {
     font-size: 1.2rem;
   }
-  #cb-image-chorleiter {
+  #cb-img-chorleitung {
     margin-right: 1.2rem;
     margin-top: .6rem;
   }
@@ -277,7 +280,7 @@ ul {
     padding-left: 7.5rem;
     padding-right: 5rem;
   }
-  #cb-image-chorleiter {
+  #cb-img-chorleitung {
     width: 18rem;
     margin-left: 5rem;
   }
@@ -303,7 +306,7 @@ ul {
     padding-left: 8.5rem;
     padding-right: 6rem;
   }
-  #cb-image-chorleiter {
+  #cb-img-chorleitung {
     margin-left: 6rem;
   }
   .cb-img {
@@ -328,7 +331,7 @@ ul {
     padding-left: 10rem;
     padding-right: 7rem;
   }
-  #cb-image-chorleiter {
+  #cb-img-chorleitung {
     width: 20rem;
     margin-left: 7rem;
   }
