@@ -1,7 +1,7 @@
 /* custom global variables */
 :root {
   --cb-warm-white: #fff5eb;
-  --cb-light-blue: #8ba7c2;
+  --cb-light-blue: #7c9fc0;
   --cb-blue: #16548b;
   --cb-light-gold: #f4e6cd;
   --cb-gold: #8c734b;
@@ -28,7 +28,7 @@ nav {
 }
 
 footer {
-  margin-bottom: 4rem;
+  margin-bottom: 3.5rem;
 }
 
 .cb-anchor {
@@ -79,6 +79,7 @@ footer {
   border-bottom: 1px solid var(--cb-gold);
   text-decoration: none;
   transition: all .15s ease-in-out;
+  white-space: nowrap;
 }
 
 .col a:hover,
@@ -119,15 +120,19 @@ h1 {
 }
 
 h2 {
-  margin-top: 2rem;
+  margin-top: 4rem;
   margin-bottom: 1rem;
   color: var(--cb-gold);
 }
 
 h3 {
-  margin-top: 1.5rem;
+  margin-top: 3rem;
   margin-bottom: 1rem;
   color: var(--cb-light-blue);
+}
+
+h2 + h3 {
+  margin-top: 1.5rem;
 }
 
 p, ul {
@@ -338,15 +343,5 @@ ul {
   .cb-img {
     width: 60rem;
     margin-left: 7rem;
-  }
-}
-
-@media (min-width: 1600px) {
-  body {
-    background-image: url("../images/background.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: top center;
-    background-size: cover;
   }
 }
