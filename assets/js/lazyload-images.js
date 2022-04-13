@@ -13,12 +13,13 @@ function setImagePlaceholder(picture, width, height) {
   const children = picture.children;
   const placeholder = placeholderImgSrc(width, height);
   children.item(0).srcset = placeholder;
-  children.item(1).src = placeholder;
+  children.item(1).srcset = placeholder;
+  children.item(2).src = placeholder;
 }
 
-setImagePlaceholder(altPicture, 1.101, 1);
-setImagePlaceholder(sopranPicture, 1.143, 1);
+setImagePlaceholder(altPicture, 1.102, 1);
+setImagePlaceholder(sopranPicture, 1.009, 1);
 setImagePlaceholder(chorleitungPicture, 1, 1.5);
 setImagePlaceholder(plakatPicture, 1, 1.414);
-setImagePlaceholder(chorPicture, 2.519, 1);
-setImagePlaceholder(maennerPicture, 1.155, 1);
+setImagePlaceholder(chorPicture, 1.5, 1);
+setImagePlaceholder(maennerPicture, 1.156, 1);
