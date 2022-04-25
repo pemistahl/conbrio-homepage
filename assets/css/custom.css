@@ -122,7 +122,7 @@ h2 {
 h3 {
   margin-top: 3rem;
   margin-bottom: 1rem;
-  color: var(--cb-light-blue);
+  color: var(--cb-blue);
 }
 
 h2 + h3 {
@@ -204,7 +204,11 @@ ul {
 /* Breakpoint Small (sm) */
 @media (min-width: 576px) {
   body {
-    background-color: var(--cb-light-blue);
+    background-image: linear-gradient(to top, var(--cb-light-blue), var(--cb-light-gold));
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
   }
   footer {
     margin-bottom: 0;
