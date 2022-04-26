@@ -170,6 +170,21 @@ ul {
   background-color: var(--cb-warm-white);
 }
 
+.cb-responsive-map {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.cb-responsive-map iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
 /* Custom breakpoint for header logo */
 @media (min-width: 350px) {
   #cb-header-logo {
@@ -289,6 +304,10 @@ ul {
     width: 50rem;
     margin-left: 5rem;
   }
+  .cb-responsive-map {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
 }
 
 /* Breakpoint Extra Large (xl) */
@@ -313,6 +332,10 @@ ul {
   .cb-img {
     width: 55rem;
     margin-left: 6rem;
+  }
+  .cb-responsive-map {
+    margin-left: 6rem;
+    margin-right: 6rem;
   }
 }
 
@@ -339,5 +362,9 @@ ul {
   .cb-img {
     width: 60rem;
     margin-left: 7rem;
+  }
+  .cb-responsive-map {
+    margin-left: 7rem;
+    margin-right: 7rem;
   }
 }
