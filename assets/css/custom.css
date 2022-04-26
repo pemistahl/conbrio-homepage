@@ -203,6 +203,7 @@ ul {
 
 /* Breakpoint Small (sm) */
 @media (min-width: 576px) {
+  /* iOS does not support background-attachment: fixed */
   html:before {
     content: ' ';
     display: block;
