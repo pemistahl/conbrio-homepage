@@ -8,7 +8,7 @@ const menuButton = document.getElementById("cb-menu-button");
 const mainContent = document.getElementById("cb-main-content");
 const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle:false});
 const observer = new IntersectionObserver(
-  ([e]) => toTopNavLink.classList.toggle("d-none", e.intersectionRatio >= 1),
+  ([entry]) => toTopNavLink.classList.toggle("d-none", entry.intersectionRatio === 1),
   {rootMargin: '-1px 0px 0px 0px', threshold: [1]}
 );
 observer.observe(navbar);
