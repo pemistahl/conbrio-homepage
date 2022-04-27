@@ -9,9 +9,8 @@ const mainContent = document.getElementById("cb-main-content");
 const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle:false});
 const observer = new IntersectionObserver(
   ([entry]) => toTopNavLink.classList.toggle("d-none", entry.intersectionRatio === 1),
-  {rootMargin: '-1px 0px 0px 0px', threshold: [1]}
+  {rootMargin: '-1px 0px 50px 0px', threshold: [1]}
 );
-observer.observe(navbar);
 
 function addNavbarAnchors() {
   anchors.forEach(anchor => anchor.classList.add("cb-anchor"));
@@ -40,15 +39,19 @@ function positionNavbar() {
     if (window.matchMedia("(min-height: 500px)").matches) {
       navbar.classList.add("sticky-top");
       toTopFooterNavLink.classList.add("d-none");
+      observer.observe(navbar);
       addNavbarAnchors();
     } else {
       navbar.classList.remove("sticky-top");
+      toTopNavLink.classList.add("d-none");
       toTopFooterNavLink.classList.remove("d-none");
+      observer.unobserve(navbar);
       removeNavbarAnchors();
     }
   } else {
     navbar.classList.remove("sticky-top", "navbar-dark", "bg-dark");
     navbar.classList.add("fixed-bottom");
+    toTopNavLink.classList.remove("d-none");
     toTopFooterNavLink.classList.remove("d-none");
     removeNavbarAnchors();
   }
