@@ -163,7 +163,7 @@ ul {
 
 #cb-header-logo {
   margin-top: .5rem;
-  width: 6rem;
+  width: 3rem;
 }
 
 .row {
@@ -183,6 +183,27 @@ ul {
   height:100%;
   width:100%;
   position:absolute;
+}
+
+/* Custom breakpoint for header logo */
+@media (min-width: 200px) {
+  #cb-header-logo {
+    width: 4rem;
+  }
+}
+
+/* Custom breakpoint for header logo */
+@media (min-width: 250px) {
+  #cb-header-logo {
+    width: 5rem;
+  }
+}
+
+/* Custom breakpoint for header logo */
+@media (min-width: 300px) {
+  #cb-header-logo {
+    width: 6rem;
+  }
 }
 
 /* Custom breakpoint for header logo */
