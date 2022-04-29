@@ -162,8 +162,8 @@ ul {
 }
 
 #cb-header-logo {
-  margin-top: .5rem;
-  width: 3rem;
+  margin-top: .4rem;
+  width: 30%;
 }
 
 .row {
@@ -185,55 +185,9 @@ ul {
   position:absolute;
 }
 
-/* Custom breakpoint for header logo */
-@media (min-width: 200px) {
-  #cb-header-logo {
-    width: 4rem;
-  }
-}
-
-/* Custom breakpoint for header logo */
-@media (min-width: 250px) {
-  #cb-header-logo {
-    width: 5rem;
-  }
-}
-
-/* Custom breakpoint for header logo */
-@media (min-width: 300px) {
-  #cb-header-logo {
-    width: 6rem;
-  }
-}
-
-/* Custom breakpoint for header logo */
-@media (min-width: 350px) {
-  #cb-header-logo {
-    width: 7rem;
-  }
-}
-
-/* Custom breakpoint for header logo */
 @media (min-width: 400px) {
-  #cb-header-logo {
-    width: 8rem;
-  }
   .col a {
     white-space: nowrap;
-  }
-}
-
-/* Custom breakpoint for header logo */
-@media (min-width: 450px) {
-  #cb-header-logo {
-    width: 9rem;
-  }
-}
-
-/* Custom breakpoint for header logo */
-@media (min-width: 500px) {
-  #cb-header-logo {
-    width: 10rem;
   }
 }
 
@@ -300,9 +254,6 @@ ul {
 
 /* Breakpoint Large (lg) */
 @media (min-width: 992px) {
-  #cb-header-row {
-    /*background-image: url("../images/background-lg.jpg");*/
-  }
   #cb-header-logo {
     width: 16rem;
   }
