@@ -170,14 +170,16 @@ ul {
   background-color: var(--cb-warm-white);
 }
 
-.cb-responsive-map {
+.cb-google-map {
   overflow:hidden;
   padding-bottom:56.25%;
   position:relative;
   height:0;
+  border-top: 1px solid var(--cb-gold);
+  border-bottom: 1px solid var(--cb-gold);
 }
 
-.cb-responsive-map iframe {
+.cb-google-map iframe {
   left:0;
   top:0;
   height:100%;
@@ -250,6 +252,12 @@ ul {
     margin-right: 1.2rem;
     margin-top: .6rem;
   }
+  #cb-first-concert-map {
+    border-right: 1px solid var(--cb-gold);
+  }
+  #cb-second-concert-map {
+    border-left: 1px solid var(--cb-gold);
+  }
 }
 
 /* Breakpoint Large (lg) */
@@ -276,9 +284,11 @@ ul {
     width: 50rem;
     margin-left: 5rem;
   }
-  .cb-responsive-map {
+  .cb-google-map {
     margin-left: 5rem;
     margin-right: 5rem;
+    border-left: 1px solid var(--cb-gold);
+    border-right: 1px solid var(--cb-gold);
   }
 }
 
@@ -305,7 +315,7 @@ ul {
     width: 55rem;
     margin-left: 6rem;
   }
-  .cb-responsive-map {
+  .cb-google-map {
     margin-left: 6rem;
     margin-right: 6rem;
   }
@@ -335,7 +345,7 @@ ul {
     width: 60rem;
     margin-left: 7rem;
   }
-  .cb-responsive-map {
+  .cb-google-map {
     margin-left: 7rem;
     margin-right: 7rem;
   }
