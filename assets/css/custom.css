@@ -1,6 +1,7 @@
 /* custom global variables */
 :root {
   --cb-warm-white: #fff5eb;
+  --cb-warm-light-white: #FFFAF5;
   --cb-light-blue: #7c9fc0;
   --cb-blue: #16548b;
   --cb-light-gold: #f4e6cd;
@@ -101,7 +102,7 @@ footer {
   color: var(--cb-gold) !important;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h5, h6 {
   font-family: "Merriweather Sans", sans-serif;
   font-weight: bold;
   word-spacing: 0.1rem;
@@ -136,7 +137,7 @@ p, ul {
   color: var(--cb-dark-grey);
 }
 
-h1, h2, h3, p {
+h1, h2, h3, p:not(.card-text) {
   padding-left: 3rem;
   padding-right: 3rem;
 }
@@ -168,6 +169,33 @@ ul {
 
 .row {
   background-color: var(--cb-warm-white);
+}
+
+.cb-card-row {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.card {
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  width: 100%;
+  margin-right: .75rem;
+  margin-bottom: .75rem;
+  border: 1px solid var(--cb-gold);
+  border-radius: unset;
+  background-color: var(--cb-warm-light-white);
+}
+
+.card-title {
+  font-size: 1.2rem;
+  color: var(--cb-blue);
+}
+
+.card-subtitle {
+  font-size: 1rem;
+  color: var(--cb-gold);
 }
 
 .cb-google-map {
@@ -221,12 +249,16 @@ ul {
   #cb-header-logo {
     width: 10rem;
   }
-  .navbar-dark .navbar-nav .nav-link, p, ul {
+  .navbar-dark .navbar-nav .nav-link, p:not(.card-text), ul {
     font-size: 1.1rem;
   }
-  h1, h2, h3, p {
+  h1, h2, h3, p:not(.card-text) {
     padding-left: 4rem;
     padding-right: 4rem;
+  }
+  .cb-card-row {
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
   ul {
     padding-left: 6rem;
@@ -245,8 +277,12 @@ ul {
     width: 12rem;
     margin-top: 1.2rem;
   }
-  .navbar-dark .navbar-nav .nav-link, p, ul {
+  .navbar-dark .navbar-nav .nav-link, p:not(.card-text), ul {
     font-size: 1.2rem;
+  }
+  .card {
+    width: 17.5rem;
+    height: 12rem;
   }
   #cb-img-chorleitung {
     margin-right: 1.2rem;
@@ -265,12 +301,20 @@ ul {
   #cb-header-logo {
     width: 16rem;
   }
-  .navbar-dark .navbar-nav .nav-link, p, ul {
+  .navbar-dark .navbar-nav .nav-link, p:not(.card-text), ul {
     font-size: 1.3rem;
   }
-  h1, h2, h3, p {
+  h1, h2, h3, p:not(.card-text) {
     padding-left: 5rem;
     padding-right: 5rem;
+  }
+  .cb-card-row {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  .card {
+    width: 24rem;
+    height: 10.5rem;
   }
   ul {
     padding-left: 7.5rem;
@@ -297,12 +341,29 @@ ul {
   #cb-header-logo {
     width: 20rem;
   }
-  .navbar-dark .navbar-nav .nav-link, p, ul {
+  .navbar-dark .navbar-nav .nav-link, p:not(.card-text), ul {
     font-size: 1.4rem;
   }
-  h1, h2, h3, p {
+  h1, h2, h3, p:not(.card-text) {
     padding-left: 6rem;
     padding-right: 6rem;
+  }
+  .cb-card-row {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+  .card {
+    width: 19rem;
+    height: 12.5rem;
+  }
+  .card-title {
+    font-size: 1.3rem;
+  }
+  .card-subtitle {
+    font-size: 1.1rem;
+  }
+  .card-text {
+    font-size: 1.05rem;
   }
   ul {
     padding-left: 8.5rem;
@@ -326,12 +387,29 @@ ul {
   #cb-header-logo {
     width: 22rem;
   }
-  .navbar-dark .navbar-nav .nav-link, p, ul {
+  .navbar-dark .navbar-nav .nav-link, p:not(.card-text), ul {
     font-size: 1.5rem;
   }
-  h1, h2, h3, p {
+  h1, h2, h3, p:not(.card-text) {
     padding-left: 7rem;
     padding-right: 7rem;
+  }
+  .cb-card-row {
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+  .card {
+    width: 22rem;
+    height: 13.5rem;
+  }
+  .card-title {
+    font-size: 1.4rem;
+  }
+  .card-subtitle {
+    font-size: 1.2rem;
+  }
+  .card-text {
+    font-size: 1.1rem;
   }
   ul {
     padding-left: 10rem;
